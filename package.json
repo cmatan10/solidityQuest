@@ -8,8 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d out"
+    "export": "npm run build && next export -o _static",
+    "predeploy": "next build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
