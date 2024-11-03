@@ -1,6 +1,6 @@
 {
   "homepage": "http://cmatan10.github.io/solidityQuest",
-  "name": "solidityQuest",
+  "name": "solidity-quest",
   "version": "0.1.0",
   "private": true,
   "scripts": {
