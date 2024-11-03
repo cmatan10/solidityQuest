@@ -1,6 +1,6 @@
 {
   "homepage": "http://cmatan10.github.io/solidityQuest",
-  "name": "metaverse13",
+  "name": "solidityquest",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "npm run build && next export -o _static",
     "predeploy": "npm run build",
     "deploy":"gh-pages -d build"
   },
